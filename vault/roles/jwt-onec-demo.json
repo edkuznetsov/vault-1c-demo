@@ -1,0 +1,11 @@
+{
+  "role_type": "jwt",
+  "user_claim": "sub",
+  "bound_audiences": ["vault"],
+  "bound_claims": {
+    "sub": "demo-application"
+  },
+  "token_policies": ["onec-policy"],
+  "token_ttl": "5m",
+  "token_max_ttl": "15m"
+}

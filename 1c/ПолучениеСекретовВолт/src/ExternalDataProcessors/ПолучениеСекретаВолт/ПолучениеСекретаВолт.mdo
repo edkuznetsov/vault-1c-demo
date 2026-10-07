@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abaa889e-ff55-4810-ba33-1ecd4157c302">
+  <producedTypes>
+    <objectType typeId="d8034ed8-929f-48b6-b27c-3a81a6cfb30a" valueTypeId="fc0fa3a8-bf10-4b0a-a5a9-bdbce654a92b"/>
+  </producedTypes>
+  <name>ПолучениеСекретаВолт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение секрета из Vault</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="382c034f-dfee-4872-8623-617c5abbda95"/>
+  <defaultForm>ExternalDataProcessor.ПолучениеСекретаВолт.Form.Форма</defaultForm>
+  <forms uuid="5c4ee4b8-3704-4839-90bb-f43772317161">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+  </forms>
+  <templates uuid="f8960009-4243-49d1-9a74-75cf98a7480b">
+    <name>ЗакрытыйКлюч</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытый ключ</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>
